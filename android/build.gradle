@@ -6,10 +6,10 @@ android {
         minSdkVersion 16
     }
       packagingOptions {
-      pickFirst 'jniLibs/x86/libsodium.so'
-      pickFirst 'jniLibs/x86_64/libsodium.so'
-      pickFirst 'jniLibs/armeabi-v7a/libsodium.so'
-      pickFirst 'jniLibs/arm64-v8a/libsodium.so'
+      pickFirst 'x86/libsodium.so'
+      pickFirst 'x86_64/libsodium.so'
+      pickFirst 'armeabi-v7a/libsodium.so'
+      pickFirst 'arm64-v8a/libsodium.so'
   }
 }
 
